@@ -3,8 +3,8 @@ package generator
 import (
 	"fmt"
 
-	. "github.com/dave/jennifer/jen"
 	"github.com/928799934/anchor-go/idl"
+	. "github.com/dave/jennifer/jen"
 	"github.com/gagliardetto/solana-go"
 )
 
@@ -22,6 +22,7 @@ type GeneratorOptions struct {
 	ProgramId   *solana.PublicKey // Program ID to use in the generated code.
 	ProgramName string            // Name of the program for the generated code.
 	SkipGoMod   bool              // If true, skip generating the go.mod file.
+	Version     string
 }
 
 func NewGenerator(idl *idl.Idl, options *GeneratorOptions) *Generator {

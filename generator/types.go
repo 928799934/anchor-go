@@ -3,10 +3,10 @@ package generator
 import (
 	"fmt"
 
-	. "github.com/dave/jennifer/jen"
-	"github.com/davecgh/go-spew/spew"
 	"github.com/928799934/anchor-go/idl"
 	"github.com/928799934/anchor-go/tools"
+	"github.com/928799934/go-spew"
+	. "github.com/dave/jennifer/jen"
 )
 
 // genfile_types generates the file `types.go`.

@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/davecgh/go-spew/spew"
 	"github.com/928799934/anchor-go/internal"
+	"github.com/928799934/go-spew"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

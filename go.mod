@@ -3,8 +3,8 @@ module github.com/928799934/anchor-go
 go 1.24.1
 
 require (
+	github.com/928799934/go-spew v1.1.2
 	github.com/dave/jennifer v1.7.1
-	github.com/davecgh/go-spew v1.1.1
 	github.com/gagliardetto/binary v0.8.0
 	github.com/gagliardetto/solana-go v1.16.0
 	github.com/stretchr/testify v1.11.1
@@ -16,6 +16,7 @@ require (
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/blendle/zapdriver v1.3.1 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/gagliardetto/treeout v0.1.4 // indirect
 	github.com/google/uuid v1.6.0 // indirect

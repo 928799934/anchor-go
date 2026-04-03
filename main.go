@@ -8,6 +8,8 @@ import (
 	"os"
 	"os/exec"
 	"path"
+	"regexp"
+	"runtime"
 
 	"github.com/928799934/anchor-go/generator"
 	"github.com/928799934/anchor-go/idl"
@@ -17,6 +19,16 @@ import (
 )
 
 const defaultProgramName = "myprogram"
+
+var version = func() string {
+	v := runtime.Version()
+
+	m := regexp.MustCompile(`go(\d+)\.(\d+)(?:\.(\d+))?`).FindStringSubmatch(v)
+	if len(m) == 0 {
+		return "1.11"
+	}
+	return m[1] + "." + m[2]
+}()
 
 func main() {
 	if askingForVersion() {
@@ -74,7 +86,9 @@ func main() {
 		ProgramName: programName,
 		ModPath:     modPath,
 		SkipGoMod:   skipGoMod,
+		Version:     version,
 	}
+
 	if !programIDOverride.IsZero() {
 		options.ProgramId = &programIDOverride
 		slog.Info("Using provided program ID", "programID", programIDOverride.String())
@@ -193,6 +207,7 @@ func main() {
 		slog.Info("Generation completed successfully",
 			"outputDir", options.OutputDir,
 			"modPath", options.ModPath,
+			"version", options.Version,
 			"package", options.Package,
 			"programName", options.ProgramName,
 		)

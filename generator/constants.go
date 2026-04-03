@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	. "github.com/dave/jennifer/jen"
-	"github.com/davecgh/go-spew/spew"
 	"github.com/928799934/anchor-go/idl/idltype"
+	"github.com/928799934/go-spew"
+	. "github.com/dave/jennifer/jen"
 	"github.com/gagliardetto/solana-go"
 )
 

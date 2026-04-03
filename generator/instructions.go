@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	. "github.com/dave/jennifer/jen"
-	"github.com/davecgh/go-spew/spew"
 	"github.com/928799934/anchor-go/idl"
 	"github.com/928799934/anchor-go/tools"
+	"github.com/928799934/go-spew"
+	. "github.com/dave/jennifer/jen"
 )
 
 func (g *Generator) gen_instructions() (*OutputFile, error) {
