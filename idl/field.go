@@ -3,8 +3,8 @@ package idl
 import (
 	"encoding/json"
 
-	"github.com/gagliardetto/anchor-go/idl/idltype"
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/tools"
 )
 
 // pub struct IdlField {

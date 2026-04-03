@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gagliardetto/anchor-go/internal"
+	"github.com/928799934/anchor-go/internal"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gagliardetto/anchor-go/idl/idltype"
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/tools"
 	"github.com/gagliardetto/solana-go"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"

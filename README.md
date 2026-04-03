@@ -8,7 +8,7 @@
 
 ```
 # Install anchor-go
-go install github.com/gagliardetto/anchor-go@latest
+go install github.com/928799934/anchor-go@latest
 
 # Generate code from an IDL file
 anchor-go --idl /path/to/idl.json --output ./generated --program-id 0123456789abcdef0123456789abcdef0123456789

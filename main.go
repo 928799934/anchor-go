@@ -9,9 +9,9 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/gagliardetto/anchor-go/generator"
-	"github.com/gagliardetto/anchor-go/idl"
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/generator"
+	"github.com/928799934/anchor-go/idl"
+	"github.com/928799934/anchor-go/tools"
 	bin "github.com/gagliardetto/binary"
 	"github.com/gagliardetto/solana-go"
 )

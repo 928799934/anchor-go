@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gagliardetto/anchor-go/idl"
-	"github.com/gagliardetto/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/idl"
+	"github.com/928799934/anchor-go/idl/idltype"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

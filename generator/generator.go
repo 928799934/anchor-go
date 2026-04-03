@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	. "github.com/dave/jennifer/jen"
-	"github.com/gagliardetto/anchor-go/idl"
+	"github.com/928799934/anchor-go/idl"
 	"github.com/gagliardetto/solana-go"
 )
 

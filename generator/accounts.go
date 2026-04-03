@@ -6,9 +6,9 @@ import (
 
 	. "github.com/dave/jennifer/jen"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gagliardetto/anchor-go/idl"
-	"github.com/gagliardetto/anchor-go/idl/idltype"
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/idl"
+	"github.com/928799934/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/tools"
 )
 
 func (g *Generator) genfile_accounts() (*OutputFile, error) {

@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gagliardetto/anchor-go/idl/idltype"
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/tools"
 )
 
 func (idlObj *Idl) Validate() *ValidationErrors {
@@ -53,10 +53,10 @@ func (s *Strings) Sort() *Strings {
 // If `a` is nil, it returns an empty Strings.
 // If both are nil, it returns an empty Strings.
 func (a Strings) NotIn(b Strings) Strings {
-	if b == nil || len(b) == 0 {
+	if len(b) == 0 {
 		return a.Clone()
 	}
-	if a == nil || len(a) == 0 {
+	if len(a) == 0 {
 		return Strings{}
 	}
 	var result Strings
@@ -74,10 +74,10 @@ func (a Strings) NotIn(b Strings) Strings {
 // If `a` is nil, it returns an empty Strings.
 // If both are nil, it returns an empty Strings.
 func (a Strings) In(b Strings) Strings {
-	if b == nil || len(b) == 0 {
+	if len(b) == 0 {
 		return Strings{}
 	}
-	if a == nil || len(a) == 0 {
+	if len(a) == 0 {
 		return Strings{}
 	}
 	var result Strings

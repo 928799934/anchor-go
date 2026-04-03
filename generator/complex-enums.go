@@ -1,8 +1,8 @@
 package generator
 
 import (
-	"github.com/gagliardetto/anchor-go/idl"
-	"github.com/gagliardetto/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/idl"
+	"github.com/928799934/anchor-go/idl/idltype"
 )
 
 // typeRegistryComplexEnum contains all types that are a complex enum (and thus implemented as an interface).

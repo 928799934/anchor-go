@@ -3,7 +3,7 @@ package idltype
 import (
 	"encoding/json"
 
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/tools"
 )
 
 func Into(

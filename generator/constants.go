@@ -9,7 +9,7 @@ import (
 
 	. "github.com/dave/jennifer/jen"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gagliardetto/anchor-go/idl/idltype"
+	"github.com/928799934/anchor-go/idl/idltype"
 	"github.com/gagliardetto/solana-go"
 )
 

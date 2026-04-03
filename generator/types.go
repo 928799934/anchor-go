@@ -5,8 +5,8 @@ import (
 
 	. "github.com/dave/jennifer/jen"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gagliardetto/anchor-go/idl"
-	"github.com/gagliardetto/anchor-go/tools"
+	"github.com/928799934/anchor-go/idl"
+	"github.com/928799934/anchor-go/tools"
 )
 
 // genfile_types generates the file `types.go`.
