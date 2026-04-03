@@ -48,7 +48,7 @@ func main() {
 	}
 
 	if modPath == "" {
-		modPath = path.Join("github.com", "gagliardetto", "anchor-go", "generated")
+		modPath = path.Join("github.com", "928799934", "anchor-go", "generated")
 		slog.Info("Using default module path", "modPath", modPath)
 	} else {
 		slog.Info("Using provided module path", "modPath", modPath)
